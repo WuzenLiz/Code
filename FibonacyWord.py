@@ -1,15 +1,15 @@
 import time as tm
 def fibonacci(n):
-    a = 1 
-    b = 1
+    a = "A" 
+    b = "B"
     if n<0:
         print('Lỗi!')
-    elif n==1:
+    elif n==0:
         return a
-    elif n==2:
+    elif n==1:
         return b
     else:
-        for i in range(2,n):
+        for i in range(2,n+1):
             c = a + b
             a = b
             b = c
@@ -18,8 +18,13 @@ def fibonacci(n):
 def main():
     n = int(input('Nhập số cần tìm fibonacci: '))
     m = fibonacci(n)
-    print(m)
-    
+    print("Dãy Fibonacci cần tìm là:" ,m , end="\n")
+    i = int(input('Bạn muốn tìm kí tự thứ mấy trong xâu fibonacci: '))
+    if (i>len(m)):
+        print("Không tìm thấy kí tự tại vị trí ",i)
+    else:
+        print("Kí tự cần tìm:",m[i] )
+
 if __name__ == '__main__':
     start = tm.time()
     main()

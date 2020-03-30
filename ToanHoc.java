@@ -42,30 +42,33 @@ public class ToanHoc{
     }
 
     /*--------------------Input------------*/
-    private static int input() {
-        int n = 0;
-        try {
-            Scanner sc = new Scanner(System.in);
-            n = sc.nextInt(); 
+        private static int input() {
+            int n = 0;
+            try {
+                Scanner sc = new Scanner(System.in);
+                n = sc.nextInt(); 
+            }
+            catch(Exception d) {
+                Scanner sc = new Scanner(System.in);
+                System.out.print("Nhập lỗi!\nHãy nhập lại!: ");
+                n = sc.nextInt();
+            }
+            return n;
         }
-        catch(Exception d) {
-            Scanner sc = new Scanner(System.in);
-            System.out.print("Nhập lỗi!\nHãy nhập lại!: ");
-            n = sc.nextInt();
-        }
-        return n;
-    }
     /*-------------------*main*----------------*/
     public static void main(String[] args) {
         System.out.print("Nhập N: ");
         int n = input();
         float[][] a = new float[2][3];
+        //Bài1
         if (n<=20) {
             System.out.printf("Tổng giai thừa của "+n+" số là: S="+TongGiaiThua(n)+"\n");
         } else {
             System.out.println("OverFlow!!!!");
         }
+        //Bài 2
         System.out.printf("Tổng dãy S2= %.5f\n",TinhTongS2()); 
+        //Bài 3
         System.out.println("Nhập hệ phương trình 2 ẩn!");
         System.out.println("Nhập phương trình 1:");
         for (int i = 0; i < 3; i++) {
