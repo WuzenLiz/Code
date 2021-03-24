@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Error><Code>AccessDenied</Code><Message>AWS authentication requires a valid Date or x-amz-date header</Message><RequestId>00000176E3885FE39011832C7F7143E9</RequestId><HostId>2vd/aDQ4eNIK+Wh9DdbmWCecX85CXp39ddFyKgApqjQn8RPDco7r4f3Ww1pnUy0W</HostId></Error>

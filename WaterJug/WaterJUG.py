@@ -33,20 +33,20 @@ class waterjug:
             self.waterjug_solution(0, (jug1+jug2))
         else:
             self.waterjug_solution(jug1-(self.jug2_max-jug2), (self.jug2_max-jug2)+jug2)
-def g(a, b):
+def check(a, b):
 	if a == 0:
 		return b
-	return g(b%a, a)
+	return check(b%a, a)
 def main():
     jug1    = int(input("Nhập thể tích bình 1: "))
     jug2    = int(input("Nhập thể tích bình 2: "))
     target  = int(input("Nhập mục tiêu cần đạt: "))
     w = waterjug(jug1,jug2,0,0,target)
-    if target % g(jug1,jug2) == 0:
+    if target % check(jug1,jug2) == 0:
         print("Bình 1\tBình 2")
         w.waterjug_solution(0,0)
     else:
-        print("Không thể thực hiện")
+        print("Không thể thực hiện!")
 
 if __name__ == "__main__":
     main()

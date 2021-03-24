@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - QuanLyMaTran",
+      "request": "launch",
+      "mainClass": "MaTran.QuanLyMaTran",
+      "projectName": "Python_9768e4"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - GraphDFS",
       "request": "launch",
       "mainClass": "GraphDFS",

@@ -1,0 +1,8 @@
+///B1:Using console, enter N, check if N is doixung?
+///B2: Array n, del dulp number ex: 1 1 2 3 4 2 3 => 1 2 3 4
+///B3: 1 thư viện cần quản lý sách với những thông tin như sau:
+SACH: MXT, MTG, Tensach, theloaisach, NXB, Trang thai(Con, het)
+thong tin ve tac gia(MTG, tenTG, ngaySinh, gioitinh, quequan)
+viet chuong trinh:
+-xdung csdl quản lý
+-xdung winform để hiển thị thông tin về

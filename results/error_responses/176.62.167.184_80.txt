@@ -1,0 +1,7 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head><title>The account hosting this domain has been temporarily disabled.</title></head>
+<body>
+The account which is hosting this domain has been temporarily disabled.<br>If you are the owner of this account, please check your e-mail and contact support or your sales representative.
+</body>
+</html>

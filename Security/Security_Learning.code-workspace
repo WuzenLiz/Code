@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "__pycache__"
+		},
+		{
+			"path": "Basic"
+		},
+		{
+			"path": "jsontool"
+		},
+		{
+			"path": "adv"
+		}
+	],
+	"settings": {}
+}

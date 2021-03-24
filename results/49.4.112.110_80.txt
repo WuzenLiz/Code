@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Error><Code>AccessDenied</Code><Message>OBS authentication requires a valid Date or x-obs-date header</Message><RequestId>00000176E388615A47D16987DA8715C8</RequestId><HostId>iSrvkvWgI/OFZtMzTW2yzwSXhc/cQeqTRR6Ta+9c+ZVPuO94jHp/0Fc3ZWFTpq0q</HostId></Error>

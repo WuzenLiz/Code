@@ -1,0 +1,8 @@
+<html><head><title>400 Bad Request</title></head><body><h1>Bad Request</h1><per>ERR_BAD_REQUEST:
+GET /get_params.cgi HTTP/1.1
+Host: 47.110.244.242
+Authorization: Basic YWRtaW46
+User-Agent: curl/7.55.1
+Accept: */*
+
+</per></body></html>
