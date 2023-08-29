@@ -13,6 +13,8 @@ def merge(start, end):
     return a
 
 
+from memory_profiler import profile
+@profile
 def sort(a):
     if len(a) == 1:
         return a
@@ -23,8 +25,9 @@ def sort(a):
     end = sort(end)
     return list(merge(start, end))
 
-
 if __name__ == '__main__':
     A = [60, 59, 3, 7, 30, 80, 100, 25, 8, 1,
          6, 70, 17, 31, 95, 6, 9, 1, 5, 2, 10]
+    from qsort import zi
+    print(zi(A))
     print(sort(A))

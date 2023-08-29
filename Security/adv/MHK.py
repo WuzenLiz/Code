@@ -1,9 +1,13 @@
-from Cryptodome.Util.number import bytes_to_long
+import traceback
+from Cryptodome.Util import number as Crypto_Number
 import Crypto_module as Module
 from Crypto_module import clear
 from Cryptodome.Util import number as Crypto_Number
 from Cryptodome import Random as Crypto_Rand
 from functools import reduce
+import os
+#True Path 
+path = os.path.dirname(os.path.realpath(__file__))
 #Define
 ##File
 Private_file = 'key/MHK_private.key'
@@ -108,19 +112,16 @@ def KeysFunction(choice=1):
     # save to file 
     ## Private key
     try:
-        with open(Private_file,'w+') as pri_file:
-            pri_file.write(str(a)+'\n')
-            pri_file.write(str(p)+'\n')
-            for elem in S:
-                pri_file.write("{}_".format(elem))
+        with open(Private_file, 'w') as pri_file:
+            pri_file.write("{}_{}_{}".format(p,a,t))
             pri_file.close()
     except IOError or FileExistsError or FileNotFoundError:
         print("Can't write to file!!!")
-        #print(traceback.format_exc()) # for debug
+        print(traceback.format_exc())
         
     ## Public key 
     try:
-        with open(Public_file, 'w+') as pub_file:
+        with open(Public_file, 'w') as pub_file:
             for elem in t:
                 pub_file.write("{}_".format(elem))
             pub_file.close()

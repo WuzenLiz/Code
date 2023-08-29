@@ -1,0 +1,91 @@
+{
+    "Categories": [
+        {
+            "id": 1,
+            "image": "https://media.discordapp.net/attachments/1101323633126821921/1101328214116282398/gift-girl.png",
+            "description": "Quà cho bé gái"
+        },
+        {
+            "id": 2,
+            "image": "https://media.discordapp.net/attachments/1101323633126821921/1101328214556676206/gift-wisdom.png",
+            "description": "Chơi đồ trí tuệ"
+        },
+        {
+            "id": 3,
+            "image": "https://media.discordapp.net/attachments/1101323633126821921/1101328214867062935/gift-boy.png",
+            "description": "Quà cho bé trai"
+        },
+        {
+            "id": 4,
+            "image": "https://media.discordapp.net/attachments/1101323633126821921/1101328215185833994/gift-diy.png",
+            "description": "DIY"
+        }
+    ],
+    "Products": [
+        {
+            "id": 1,
+            "name": "Sản phẩm 1",
+            "description": "Chắc chắn là mô tả sản phẩm 1",
+            "price": 12000,
+            "images": [
+                "https://media.discordapp.net/attachments/1101323633126821921/1101330132347666602/gift-exchange-thumb-5.png"
+            ],
+            "total_exchange": 100,
+            "category_ids": [
+                1,
+                2
+            ],
+            "meta_data": {
+            },
+            "created_at": "2023-04-25T00:00:00Z"
+        },
+        {
+            "id": 2,
+            "name": "Sản phẩm 2",
+            "description": "Chắc chắn là mô tả sản phẩm 2",
+            "price": 13000,
+            "images": [
+                "https://media.discordapp.net/attachments/1101323633126821921/1101330131764658206/gift-exchange-thumb-3.png"
+            ],
+            "total_exchange": 50,
+            "category_ids": [
+                3
+            ],
+            "meta_data": {
+            },
+            "created_at": "2023-04-22T00:00:00Z"
+        },
+        {
+            "id": 3,
+            "name": "Sản phẩm 3",
+            "description": "Chắc chắn là mô tả sản phẩm 3",
+            "price": 14000,
+            "images": [
+                "https://media.discordapp.net/attachments/1101323633126821921/1101330132628676750/gift-exchange-thumb-6.png"
+            ],
+            "total_exchange": 10,
+            "category_ids": [
+                4
+            ],
+            "meta_data": {
+            },
+            "created_at": "2023-04-27T00:00:00Z"
+        },
+        {
+            "id": 4,
+            "name": "Sản phẩm 4",
+            "description": "Chắc chắn là mô tả sản phẩm 4",
+            "price": 11000,
+            "images": [
+                "https://media.discordapp.net/attachments/1101323633126821921/1101330132041470052/gift-exchange-thumb-4.png"
+            ],
+            "total_exchange": 10,
+            "category_ids": [
+                4,3
+            ],
+            "meta_data": {
+            },
+            "created_at": "2023-04-27T00:00:00Z"
+        }
+    ]
+}

@@ -1,15 +1,15 @@
 minimum = -1000000
 def Global_Sum_subarr(arr,l,m,h):
-    # l - low; m - mid; h - high
+    # l - Thấp; m - giữa; h - cao
     right_sum = minimum
     left_sum = minimum
-    # Left sum
+    # Tổng trái
     sum = 0
     for i in range(m, l-1, -1):
         sum = sum+arr[i]
         if (sum>left_sum):
             left_sum = sum
-    # Righ_sum
+    # Tổng phải
     sum = 0
     for i in range(m+1,h+1):
         sum = sum+arr[i]

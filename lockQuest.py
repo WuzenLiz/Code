@@ -21,7 +21,7 @@ def zen(lt):
     return relt
 
 
-q = guessables(5)
+q = guessables(9)
 p = zen(q)
 p.sort()
 new_p = list(p for p,_ in itertools.groupby(p))

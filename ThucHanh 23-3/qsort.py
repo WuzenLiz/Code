@@ -16,6 +16,8 @@ def quickSort(arr,low,high):
         quickSort(arr, low, pi-1) 
         quickSort(arr, pi+1, high)  
 
+from memory_profiler import profile
+@profile
 def zi(a):
     n = len(a)
     quickSort(a,0,n-1)

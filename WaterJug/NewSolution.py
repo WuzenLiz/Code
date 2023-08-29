@@ -12,6 +12,7 @@ def canMeasureWater(x: int, y: int, z: int) -> bool:
         return z == big
     gcd(big, small)
     return z % gcd == 0
+    
 def gcd(cls, x, y) -> int:
     while True:
         if x % y == 0:

@@ -14,10 +14,13 @@ def fibonacci(n):
             a = b
             b = c
         return b
- 
+
+FIBstr = lambda n: 'A' if n == 0 else 'B' if n == 1 else FIBstr(n-1) + FIBstr(n-2)
+
 def main():
     n = int(input('Nhập số cần tìm fibonacci: '))
     m = fibonacci(n)
+    print("Dãy Fibonacci cần tìm là:" ,FIBstr(n) , end="\n")
     print("Dãy Fibonacci cần tìm là:" ,m , end="\n")
     i = int(input('Bạn muốn tìm kí tự thứ mấy trong xâu fibonacci: '))
     if (i>len(m)):

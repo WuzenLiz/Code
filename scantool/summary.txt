@@ -1,0 +1,21 @@
+Target,SubjectCN,Result
+157.245.63.193,No Need,Not vulnerable (404)
+Target,SubjectCN,Result
+157.245.63.193,No Need,Not vulnerable (404)
+Target,SubjectCN,Result
+157.245.63.193,No Need,Not vulnerable (404)
+176.113.115.51,No Need,URL Error
+Target,SubjectCN,Result
+157.245.63.193:443,No Need,Not vulnerable (404)
+176.113.115.51:22,No Need,URL Error
+Target,SubjectCN,Result
+157.245.63.193:443,No Need,Not vulnerable (404)
+176.113.115.51:22,No Need,URL Error
+Target,SubjectCN,Result
+157.245.63.193,No Need,Not vulnerable (404)
+176.113.115.51,No Need,URL Error
+Target,SubjectCN,Result
+157.245.63.193:443,No Need,Not vulnerable (404)
+176.113.115.51:22,No Need,URL Error
+Target,SubjectCN,Result
+www.baocalitoday.com,No Need,URL Error

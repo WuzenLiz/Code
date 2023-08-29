@@ -6,3 +6,4 @@ gcd = lambda a,b: gcd(b, a % b) if b else a
 import os
 clear = lambda: os.system('cls' if os.name=='nt' else 'clear')
 
+print(egcd(3,11))
